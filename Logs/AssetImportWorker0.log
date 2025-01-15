@@ -1,0 +1,1092 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.50f1c1 (11690e56caf9) revision 1141006'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32543 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\UnityEditor\2022.3.50f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Program Files (x86)/UnityProjects/DuckHunt-Xlua
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3606
+Successfully changed project path to: E:/Program Files (x86)/UnityProjects/DuckHunt-Xlua
+E:/Program Files (x86)/UnityProjects/DuckHunt-Xlua
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23800]  Target information:
+
+Player connection [23800]  * "[IP] 172.16.0.146 [Port] 0 [Flags] 2 [Guid] 1821241253 [EditorId] 1821241253 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K8NVPLS0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23800] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 60.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1c1 (11690e56caf9)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/UnityEditor/2022.3.50f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Program Files (x86)/UnityProjects/DuckHunt-Xlua/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6103
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/UnityEditor/2022.3.50f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/UnityEditor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files (x86)/UnityEditor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/UnityEditor/2022.3.50f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010832 seconds.
+- Loaded All Assemblies, in  0.447 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 766ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.684 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 1635ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (835ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 39.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (53.0 KB). Loaded Objects now: 3108.
+Memory consumption went from 107.8 MB to 107.7 MB.
+Total: 4.671000 ms (FindLiveObjects: 0.129900 ms CreateObjectMapping: 0.041000 ms MarkObjects: 4.405600 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106445.282525 seconds.
+  path: Assets/XLua/Gen/UnityEngineVideoVideoPlayerWrap.cs
+  artifactKey: Guid(4a6960ddf8bdb2043be7787e0f80ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Gen/UnityEngineVideoVideoPlayerWrap.cs using Guid(4a6960ddf8bdb2043be7787e0f80ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '8d7b0eb508fd34f6abcbcfb1d95e5efe') in 0.002250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/XLua/Gen/Coroutine_RunnerWrap.cs
+  artifactKey: Guid(05a3667f600c39c4287178d0f2869644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Gen/Coroutine_RunnerWrap.cs using Guid(05a3667f600c39c4287178d0f2869644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c82c8bac10c8ff29b4df7e3c1ca65ef6') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.689 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 1809ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 31.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (75.4 KB). Loaded Objects now: 3017.
+Memory consumption went from 105.5 MB to 105.5 MB.
+Total: 4.044400 ms (FindLiveObjects: 0.117300 ms CreateObjectMapping: 0.034600 ms MarkObjects: 3.808100 ms  DeleteObjects: 0.083600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AsyncTest.cs: 76ce712e1c4d409aac5fa695d71d244a -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CoroutineTest.cs: 134e75b3d624706c90564858fec019a1 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LuaBehaviour.cs: f44d0d04993d9a005c2ebaa00ba43fff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslatorPool.cs: c088e49ccc65541c1471becee0155ecc -> 
+  custom:scripting/monoscript/fileName/ByFile.cs: 6f3dfbef5ea17c4620534958e4e26f3b -> 
+  custom:scripting/monoscript/fileName/GenericMethodExample.cs: c3c4960d5a8b500e2f93697b37d06ae2 -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: e625196896b9f66d9c1ea4ac7597fd39 -> 
+  custom:scripting/monoscript/fileName/ObjectCasters.cs: 0c1ed1f1cf3d518e5e522f4d874c21c2 -> 
+  custom:scripting/monoscript/fileName/ReImplementInLua.cs: ccd60d267132159582621b9635d9b5d9 -> 
+  custom:scripting/monoscript/fileName/CustomLoader.cs: 3c04d951376acd618234995a34635baf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BuildFromCLI.cs: ef1665cfd7adbd546e15cd58c9f7c486 -> 
+  custom:scripting/monoscript/fileName/HotfixTest.cs: 3960e9f9315d94bf0223f379bfbd4a4a -> 
+  custom:scripting/monoscript/fileName/StatefullTest.cs: 5d22c8326914d95b29e418e9d014cf15 -> 
+  custom:scripting/monoscript/fileName/InternalGlobals.cs: 009e626d008ed11807341f4cf6fb3a9c -> 
+  custom:scripting/monoscript/fileName/RawObject.cs: e4d66a2fce5b764d8103d4567ed38606 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: afc244f7b5f5d0300b37ddf3297901ec -> 
+  custom:scripting/monoscript/fileName/DelegateBridge.cs: 4daef522f87298a8262553f6fd5bf8f2 -> 
+  custom:scripting/monoscript/fileName/Foo.cs: f1cbde57f1c636c66a444cf720c99995 -> 
+  custom:scripting/monoscript/fileName/ArBoxXluaGenConfig.cs: 33738575e064a6db3ac6aa405303e8cb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslator.cs: dd3d0b582d45a9b753aab5e6237efeb3 -> 
+  custom:scripting/monoscript/fileName/ExampleGenConfig.cs: 2d21554d83bd53efca28765b954d65c7 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCallCS.cs: e8bcca8f5a69d0bfe194554d3aeb91b1 -> 
+  custom:scripting/monoscript/fileName/TemplateRef.cs: e57f72b6ec3c4672428b8339ce53c07a -> 
+  custom:scripting/monoscript/fileName/ByString.cs: 71ac2dce49068f904e2150c45e200cdb -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloom.cs: af35b1293c3b8010d434c4d3a8e895f8 -> 
+  custom:scripting/monoscript/fileName/HotfixTest2.cs: e6fb5855d637d49dacea7216888e03f7 -> 
+  custom:scripting/monoscript/fileName/Helloworld.cs: 5df6067a12a0276271ef7e4b2f46b98d -> 
+  custom:scripting/monoscript/fileName/LuaBase.cs: f0e74d4e175e23617aebee3a1fbf3735 -> 
+  custom:scripting/monoscript/fileName/LinkXmlGen.cs: f26ca07c1d6ecd8bde6b48a50ed6d393 -> 
+  custom:scripting/monoscript/fileName/LuaDLL.cs: 61e98a188b5f49dbf1a755838a97959a -> 
+  custom:scripting/monoscript/fileName/GenAttributes.cs: d46b0cff88dfb044f17f4aed96768af1 -> 
+  custom:scripting/monoscript/fileName/GenericDelegateBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LuaCallCs.cs: 80d51efbfa90ec9a93bf6c4f217fae70 -> 
+  custom:scripting/monoscript/fileName/ExampleConfig.cs: 96766ead2b0a0269b4571117ad9e65bc -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSCallLua.cs: 9d2ef4b275968bd22a483233fb8b554e -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 55f902a32cb309b7a62f1e16aa1d617d -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/TemplateEngine.cs: 196c6eecd2e70276dab2c9a7b0cf2d59 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CopyByValue.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/LuaEnv.cs: 89231863be1481a3b9e862fc4fbe0062 -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 3081cd44c942bb721c41533a36b734d7 -> 
+  custom:scripting/monoscript/fileName/SignatureLoaderTest.cs: 8c9bdabb3430d1beabc1824b7aff6019 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRef.cs: d20deefef77ce124517d36312519dad2 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SimpleTouchController.cs: e063af2f9dee5359afd527d83fccd2ae -> 
+  custom:scripting/monoscript/fileName/LuaException.cs: c33171da8599ff6293dbea39eed5f2df -> 
+  custom:scripting/monoscript/fileName/MessageBox.cs: febd8bda4c1c594acb6f720026ed3aee -> 
+  custom:scripting/monoscript/fileName/InvokeLua.cs: 7479efa8aadd7aed0020601aa4374477 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaTrigger.cs: c49c7f048e752ba10c5bd139cb5af04a -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaUMovie.cs: 4beb625c694d85cefa838367ff4a6724 -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: 9f9e88fec2de37a51bb5cc9b6b08d6b9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0a94cab9cfad88dd0b91d9e6ddecf0a8 -> 
+  custom:scripting/monoscript/fileName/StaticLuaCallbacks.cs: 9d25aed2b0bb83738cfec7ef5ea55802 -> 
+  custom:scripting/monoscript/fileName/SignatureLoader.cs: 2543099e1b7f94e78f488961484e5e52 -> 
+  custom:scripting/monoscript/fileName/RawObjectTest.cs: af9e06db1e13155c5410c0aa29232eac -> 
+  custom:scripting/monoscript/fileName/MethodWarpsCache.cs: 182591812fc1e7cc805d3eb126c7629a -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1df98f9193dde712af527ae4dfb9eb06 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCollision.cs: 5d7ddf1c522a451ab136b0ecc7a0b86d -> 
+  custom:scripting/monoscript/fileName/Coroutine_Runner.cs: 5e4439e00fb63cce9171543cd134a301 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NoGc.cs: 468686911b292518222c0fc5fca7afd3 -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 41af867cc123c070dfe6b15d45bb5402 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.417 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 23.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (26.9 KB). Loaded Objects now: 3020.
+Memory consumption went from 105.7 MB to 105.7 MB.
+Total: 3.821100 ms (FindLiveObjects: 0.109800 ms CreateObjectMapping: 0.030500 ms MarkObjects: 3.651500 ms  DeleteObjects: 0.028500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AsyncTest.cs: 76ce712e1c4d409aac5fa695d71d244a -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CoroutineTest.cs: 134e75b3d624706c90564858fec019a1 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LuaBehaviour.cs: f44d0d04993d9a005c2ebaa00ba43fff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslatorPool.cs: c088e49ccc65541c1471becee0155ecc -> 
+  custom:scripting/monoscript/fileName/ByFile.cs: 6f3dfbef5ea17c4620534958e4e26f3b -> 
+  custom:scripting/monoscript/fileName/GenericMethodExample.cs: c3c4960d5a8b500e2f93697b37d06ae2 -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: e625196896b9f66d9c1ea4ac7597fd39 -> 
+  custom:scripting/monoscript/fileName/ObjectCasters.cs: 0c1ed1f1cf3d518e5e522f4d874c21c2 -> 
+  custom:scripting/monoscript/fileName/ReImplementInLua.cs: ccd60d267132159582621b9635d9b5d9 -> 
+  custom:scripting/monoscript/fileName/CustomLoader.cs: 3c04d951376acd618234995a34635baf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BuildFromCLI.cs: ef1665cfd7adbd546e15cd58c9f7c486 -> 
+  custom:scripting/monoscript/fileName/HotfixTest.cs: 3960e9f9315d94bf0223f379bfbd4a4a -> 
+  custom:scripting/monoscript/fileName/StatefullTest.cs: 5d22c8326914d95b29e418e9d014cf15 -> 
+  custom:scripting/monoscript/fileName/InternalGlobals.cs: 009e626d008ed11807341f4cf6fb3a9c -> 
+  custom:scripting/monoscript/fileName/RawObject.cs: e4d66a2fce5b764d8103d4567ed38606 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: afc244f7b5f5d0300b37ddf3297901ec -> 
+  custom:scripting/monoscript/fileName/DelegateBridge.cs: 4daef522f87298a8262553f6fd5bf8f2 -> 
+  custom:scripting/monoscript/fileName/Foo.cs: f1cbde57f1c636c66a444cf720c99995 -> 
+  custom:scripting/monoscript/fileName/ArBoxXluaGenConfig.cs: 33738575e064a6db3ac6aa405303e8cb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslator.cs: dd3d0b582d45a9b753aab5e6237efeb3 -> 
+  custom:scripting/monoscript/fileName/ExampleGenConfig.cs: 2d21554d83bd53efca28765b954d65c7 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCallCS.cs: e8bcca8f5a69d0bfe194554d3aeb91b1 -> 
+  custom:scripting/monoscript/fileName/TemplateRef.cs: e57f72b6ec3c4672428b8339ce53c07a -> 
+  custom:scripting/monoscript/fileName/ByString.cs: 71ac2dce49068f904e2150c45e200cdb -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloom.cs: af35b1293c3b8010d434c4d3a8e895f8 -> 
+  custom:scripting/monoscript/fileName/HotfixTest2.cs: e6fb5855d637d49dacea7216888e03f7 -> 
+  custom:scripting/monoscript/fileName/Helloworld.cs: 5df6067a12a0276271ef7e4b2f46b98d -> 
+  custom:scripting/monoscript/fileName/LuaBase.cs: f0e74d4e175e23617aebee3a1fbf3735 -> 
+  custom:scripting/monoscript/fileName/LinkXmlGen.cs: f26ca07c1d6ecd8bde6b48a50ed6d393 -> 
+  custom:scripting/monoscript/fileName/LuaDLL.cs: 61e98a188b5f49dbf1a755838a97959a -> 
+  custom:scripting/monoscript/fileName/GenAttributes.cs: d46b0cff88dfb044f17f4aed96768af1 -> 
+  custom:scripting/monoscript/fileName/GenericDelegateBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LuaCallCs.cs: 80d51efbfa90ec9a93bf6c4f217fae70 -> 
+  custom:scripting/monoscript/fileName/ExampleConfig.cs: 96766ead2b0a0269b4571117ad9e65bc -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSCallLua.cs: 9d2ef4b275968bd22a483233fb8b554e -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 55f902a32cb309b7a62f1e16aa1d617d -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/TemplateEngine.cs: 196c6eecd2e70276dab2c9a7b0cf2d59 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CopyByValue.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/LuaEnv.cs: 89231863be1481a3b9e862fc4fbe0062 -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 3081cd44c942bb721c41533a36b734d7 -> 
+  custom:scripting/monoscript/fileName/SignatureLoaderTest.cs: 8c9bdabb3430d1beabc1824b7aff6019 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRef.cs: d20deefef77ce124517d36312519dad2 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SimpleTouchController.cs: e063af2f9dee5359afd527d83fccd2ae -> 
+  custom:scripting/monoscript/fileName/LuaException.cs: c33171da8599ff6293dbea39eed5f2df -> 
+  custom:scripting/monoscript/fileName/MessageBox.cs: febd8bda4c1c594acb6f720026ed3aee -> 
+  custom:scripting/monoscript/fileName/InvokeLua.cs: 7479efa8aadd7aed0020601aa4374477 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaTrigger.cs: c49c7f048e752ba10c5bd139cb5af04a -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaUMovie.cs: 4beb625c694d85cefa838367ff4a6724 -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: 9f9e88fec2de37a51bb5cc9b6b08d6b9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0a94cab9cfad88dd0b91d9e6ddecf0a8 -> 
+  custom:scripting/monoscript/fileName/StaticLuaCallbacks.cs: 9d25aed2b0bb83738cfec7ef5ea55802 -> 
+  custom:scripting/monoscript/fileName/SignatureLoader.cs: 2543099e1b7f94e78f488961484e5e52 -> 
+  custom:scripting/monoscript/fileName/RawObjectTest.cs: af9e06db1e13155c5410c0aa29232eac -> 
+  custom:scripting/monoscript/fileName/MethodWarpsCache.cs: 182591812fc1e7cc805d3eb126c7629a -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1df98f9193dde712af527ae4dfb9eb06 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCollision.cs: 5d7ddf1c522a451ab136b0ecc7a0b86d -> 
+  custom:scripting/monoscript/fileName/Coroutine_Runner.cs: 5e4439e00fb63cce9171543cd134a301 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NoGc.cs: 468686911b292518222c0fc5fca7afd3 -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 41af867cc123c070dfe6b15d45bb5402 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.422 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.975 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 25.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (27.0 KB). Loaded Objects now: 3023.
+Memory consumption went from 105.7 MB to 105.7 MB.
+Total: 3.856900 ms (FindLiveObjects: 0.124100 ms CreateObjectMapping: 0.033500 ms MarkObjects: 3.674000 ms  DeleteObjects: 0.023700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AsyncTest.cs: 76ce712e1c4d409aac5fa695d71d244a -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CoroutineTest.cs: 134e75b3d624706c90564858fec019a1 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LuaBehaviour.cs: f44d0d04993d9a005c2ebaa00ba43fff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslatorPool.cs: c088e49ccc65541c1471becee0155ecc -> 
+  custom:scripting/monoscript/fileName/ByFile.cs: 6f3dfbef5ea17c4620534958e4e26f3b -> 
+  custom:scripting/monoscript/fileName/GenericMethodExample.cs: c3c4960d5a8b500e2f93697b37d06ae2 -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: e625196896b9f66d9c1ea4ac7597fd39 -> 
+  custom:scripting/monoscript/fileName/ObjectCasters.cs: 0c1ed1f1cf3d518e5e522f4d874c21c2 -> 
+  custom:scripting/monoscript/fileName/ReImplementInLua.cs: ccd60d267132159582621b9635d9b5d9 -> 
+  custom:scripting/monoscript/fileName/CustomLoader.cs: 3c04d951376acd618234995a34635baf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BuildFromCLI.cs: ef1665cfd7adbd546e15cd58c9f7c486 -> 
+  custom:scripting/monoscript/fileName/HotfixTest.cs: 3960e9f9315d94bf0223f379bfbd4a4a -> 
+  custom:scripting/monoscript/fileName/StatefullTest.cs: 5d22c8326914d95b29e418e9d014cf15 -> 
+  custom:scripting/monoscript/fileName/InternalGlobals.cs: 009e626d008ed11807341f4cf6fb3a9c -> 
+  custom:scripting/monoscript/fileName/RawObject.cs: e4d66a2fce5b764d8103d4567ed38606 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: afc244f7b5f5d0300b37ddf3297901ec -> 
+  custom:scripting/monoscript/fileName/DelegateBridge.cs: 4daef522f87298a8262553f6fd5bf8f2 -> 
+  custom:scripting/monoscript/fileName/Foo.cs: f1cbde57f1c636c66a444cf720c99995 -> 
+  custom:scripting/monoscript/fileName/ArBoxXluaGenConfig.cs: 33738575e064a6db3ac6aa405303e8cb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslator.cs: dd3d0b582d45a9b753aab5e6237efeb3 -> 
+  custom:scripting/monoscript/fileName/ExampleGenConfig.cs: 2d21554d83bd53efca28765b954d65c7 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCallCS.cs: e8bcca8f5a69d0bfe194554d3aeb91b1 -> 
+  custom:scripting/monoscript/fileName/TemplateRef.cs: e57f72b6ec3c4672428b8339ce53c07a -> 
+  custom:scripting/monoscript/fileName/ByString.cs: 71ac2dce49068f904e2150c45e200cdb -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloom.cs: af35b1293c3b8010d434c4d3a8e895f8 -> 
+  custom:scripting/monoscript/fileName/HotfixTest2.cs: e6fb5855d637d49dacea7216888e03f7 -> 
+  custom:scripting/monoscript/fileName/Helloworld.cs: 5df6067a12a0276271ef7e4b2f46b98d -> 
+  custom:scripting/monoscript/fileName/LuaBase.cs: f0e74d4e175e23617aebee3a1fbf3735 -> 
+  custom:scripting/monoscript/fileName/LinkXmlGen.cs: f26ca07c1d6ecd8bde6b48a50ed6d393 -> 
+  custom:scripting/monoscript/fileName/LuaDLL.cs: 61e98a188b5f49dbf1a755838a97959a -> 
+  custom:scripting/monoscript/fileName/GenAttributes.cs: d46b0cff88dfb044f17f4aed96768af1 -> 
+  custom:scripting/monoscript/fileName/GenericDelegateBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LuaCallCs.cs: 80d51efbfa90ec9a93bf6c4f217fae70 -> 
+  custom:scripting/monoscript/fileName/ExampleConfig.cs: 96766ead2b0a0269b4571117ad9e65bc -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSCallLua.cs: 9d2ef4b275968bd22a483233fb8b554e -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 55f902a32cb309b7a62f1e16aa1d617d -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/TemplateEngine.cs: 196c6eecd2e70276dab2c9a7b0cf2d59 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CopyByValue.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/LuaEnv.cs: 89231863be1481a3b9e862fc4fbe0062 -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 3081cd44c942bb721c41533a36b734d7 -> 
+  custom:scripting/monoscript/fileName/SignatureLoaderTest.cs: 8c9bdabb3430d1beabc1824b7aff6019 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRef.cs: d20deefef77ce124517d36312519dad2 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SimpleTouchController.cs: e063af2f9dee5359afd527d83fccd2ae -> 
+  custom:scripting/monoscript/fileName/LuaException.cs: c33171da8599ff6293dbea39eed5f2df -> 
+  custom:scripting/monoscript/fileName/MessageBox.cs: febd8bda4c1c594acb6f720026ed3aee -> 
+  custom:scripting/monoscript/fileName/InvokeLua.cs: 7479efa8aadd7aed0020601aa4374477 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaTrigger.cs: c49c7f048e752ba10c5bd139cb5af04a -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaUMovie.cs: 4beb625c694d85cefa838367ff4a6724 -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: 9f9e88fec2de37a51bb5cc9b6b08d6b9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0a94cab9cfad88dd0b91d9e6ddecf0a8 -> 
+  custom:scripting/monoscript/fileName/StaticLuaCallbacks.cs: 9d25aed2b0bb83738cfec7ef5ea55802 -> 
+  custom:scripting/monoscript/fileName/SignatureLoader.cs: 2543099e1b7f94e78f488961484e5e52 -> 
+  custom:scripting/monoscript/fileName/RawObjectTest.cs: af9e06db1e13155c5410c0aa29232eac -> 
+  custom:scripting/monoscript/fileName/MethodWarpsCache.cs: 182591812fc1e7cc805d3eb126c7629a -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1df98f9193dde712af527ae4dfb9eb06 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCollision.cs: 5d7ddf1c522a451ab136b0ecc7a0b86d -> 
+  custom:scripting/monoscript/fileName/Coroutine_Runner.cs: 5e4439e00fb63cce9171543cd134a301 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/NoGc.cs: 468686911b292518222c0fc5fca7afd3 -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 41af867cc123c070dfe6b15d45bb5402 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157.397985 seconds.
+  path: Assets/XLua/Gen/UnityEngineCameraWrap.cs
+  artifactKey: Guid(70f5b85a66fe1b749959a6c69580cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Gen/UnityEngineCameraWrap.cs using Guid(70f5b85a66fe1b749959a6c69580cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6102db965f4254836710689ae890c5f9') in 0.003678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 189.859217 seconds.
+  path: Assets/XLua/Gen/UnityEngineCameraWrap.cs
+  artifactKey: Guid(70f5b85a66fe1b749959a6c69580cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLua/Gen/UnityEngineCameraWrap.cs using Guid(70f5b85a66fe1b749959a6c69580cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7431b3cd974cbbb6a1f21f3855980b41') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.428 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 23.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2625 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (26.9 KB). Loaded Objects now: 3120.
+Memory consumption went from 107.1 MB to 107.1 MB.
+Total: 4.226000 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.043300 ms MarkObjects: 4.011200 ms  DeleteObjects: 0.028200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AsyncTest.cs: 76ce712e1c4d409aac5fa695d71d244a -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector4Wrap.cs: e876ed87f63c3dc401e686c851325f69 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBehaviourWrap.cs: 07f04650a03b829841e9fab9d7740454 -> 
+  custom:scripting/monoscript/fileName/SystemCollectionsGenericList1SystemInt32Wrap.cs: 0d81f6d3ce2afe6f735fa61fb6f44318 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRigidbodyWrap.cs: 9bbdb506bfaae4b1e09ba9dfb8f08ae0 -> 
+  custom:scripting/monoscript/fileName/SimpleJSONJSONClassWrap.cs: c88df95b71469c675199d7be10396487 -> 
+  custom:scripting/monoscript/fileName/SystemCollectionsIEnumeratorBridge.cs: a6b8b2b6997973169c6bebc4e00197c3 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo2ParentWrap.cs: e55fdaf088679107b1602d0f4f018827 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRendererWrap.cs: e28d66316639c5d4634a4f4176885c0f -> 
+  custom:scripting/monoscript/fileName/UnityEngineWWWFormWrap.cs: 191b7ec59c86354e800249133d1a7eb8 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaUMovieWrap.cs: 54660daa1b82d344065872b745953478 -> 
+  custom:scripting/monoscript/fileName/CoroutineTest.cs: 134e75b3d624706c90564858fec019a1 -> 
+  custom:scripting/monoscript/fileName/XLuaGenAutoRegister.cs: f7d7a1bdecea0875c31215b468d1ea3c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTimeWrap.cs: 5e744018ad83dc4e6b5341356b280ff7 -> 
+  custom:scripting/monoscript/fileName/LuaBehaviour.cs: f44d0d04993d9a005c2ebaa00ba43fff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaCallCSWrap.cs: 6e209fa7545d43b35c04172408930ca4 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslatorPool.cs: c088e49ccc65541c1471becee0155ecc -> 
+  custom:scripting/monoscript/fileName/ByFile.cs: 6f3dfbef5ea17c4620534958e4e26f3b -> 
+  custom:scripting/monoscript/fileName/GenericMethodExample.cs: c3c4960d5a8b500e2f93697b37d06ae2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationClipWrap.cs: 77a92debc688d37d0c76ed29e7849dc6 -> 
+  custom:scripting/monoscript/fileName/UnityEngineVideoVideoClipWrap.cs: 18fcd839a99489f58383ba13bbb1bc02 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationCurveWrap.cs: a1b4a7dab75f49fff03082ff025e4e5e -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: e625196896b9f66d9c1ea4ac7597fd39 -> 
+  custom:scripting/monoscript/fileName/ObjectCasters.cs: 0c1ed1f1cf3d518e5e522f4d874c21c2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineComponentWrap.cs: 3c3e0b9fedb2878f9f3fac771839136b -> 
+  custom:scripting/monoscript/fileName/UnityEngineRectOffsetWrap.cs: d2412070fed9092b91fec02dd9537d08 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo1ChildWrap.cs: 1c5e3d8cdf39c119ce22e5be32eae9dd -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRefWrap.cs: 1d5c40930b5cbeafd08fbb867cba154b -> 
+  custom:scripting/monoscript/fileName/ReImplementInLua.cs: ccd60d267132159582621b9635d9b5d9 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTransformWrap.cs: 50d916bbc9cc3aa204547c1dbcf1b841 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoundsWrap.cs: 3dd26eeb95bac2de8ce2da585d995261 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFooWrap.cs: abbeeb9782209030752aecf7c8307085 -> 
+  custom:scripting/monoscript/fileName/CustomLoader.cs: 3c04d951376acd618234995a34635baf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BuildFromCLI.cs: ef1665cfd7adbd546e15cd58c9f7c486 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationWrap.cs: 71fe30db9844072263f7bd67a3c89627 -> 
+  custom:scripting/monoscript/fileName/HotfixTest.cs: 3960e9f9315d94bf0223f379bfbd4a4a -> 
+  custom:scripting/monoscript/fileName/StatefullTest.cs: 5d22c8326914d95b29e418e9d014cf15 -> 
+  custom:scripting/monoscript/fileName/SimpleJSONJSONNodeWrap.cs: 3f7db2ac11d98b13e5962ee3c5ccecc0 -> 
+  custom:scripting/monoscript/fileName/WrapPusher.cs: a7d84f614ae4cd3b956f9b8556cfd18e -> 
+  custom:scripting/monoscript/fileName/InternalGlobals.cs: 009e626d008ed11807341f4cf6fb3a9c -> 
+  custom:scripting/monoscript/fileName/UnityEngineShaderWrap.cs: 12366805230b9f8c47ebcb2d343a8739 -> 
+  custom:scripting/monoscript/fileName/RawObject.cs: e4d66a2fce5b764d8103d4567ed38606 -> 
+  custom:scripting/monoscript/fileName/UnityEngineLightWrap.cs: afdccdb78964e15816bd84ff574e1d72 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/UnityEngineRenderTextureWrap.cs: 79648034d95cb274ca07f6080cb1f0b0 -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: afc244f7b5f5d0300b37ddf3297901ec -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioListenerWrap.cs: 90d69cc44e816d1bfce01fa7ef7fe6f1 -> 
+  custom:scripting/monoscript/fileName/UnityEnginePlayerPrefsWrap.cs: ef520df3f1bd5853616cd94f5b099cd0 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoxCollider2DWrap.cs: d6328aaa2851160dd42642d945004578 -> 
+  custom:scripting/monoscript/fileName/XLuaTestBaseTestWrap.cs: 4f21680da7e23ca573808ca54815d505 -> 
+  custom:scripting/monoscript/fileName/DelegateBridge.cs: 4daef522f87298a8262553f6fd5bf8f2 -> 
+  custom:scripting/monoscript/fileName/XLuaTestInvokeLuaICalcBridge.cs: 39dbaec3aa6ccdef5b8e133e5c8d912d -> 
+  custom:scripting/monoscript/fileName/Foo.cs: f1cbde57f1c636c66a444cf720c99995 -> 
+  custom:scripting/monoscript/fileName/ArBoxXluaGenConfig.cs: 33738575e064a6db3ac6aa405303e8cb -> 
+  custom:scripting/monoscript/fileName/UnityEngineParticleSystemWrap.cs: eee33c4ac5a2b762ef5a90683fe90f0f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRectTransformWrap.cs: 0baabbce49e7446cc8a42cb49920b4ad -> 
+  custom:scripting/monoscript/fileName/ObjectTranslator.cs: dd3d0b582d45a9b753aab5e6237efeb3 -> 
+  custom:scripting/monoscript/fileName/XLuaTestLuaBehaviourWrap.cs: 8a24807dde2ec4b5434d8876b84591df -> 
+  custom:scripting/monoscript/fileName/UnityEngineCharacterControllerWrap.cs: 55c4a76cf805bd72f5fb379a4e9b8dba -> 
+  custom:scripting/monoscript/fileName/TutorialCSCallLuaItfDBridge.cs: 4e0a8d0795850c18cf92cbc673dc6199 -> 
+  custom:scripting/monoscript/fileName/ExampleGenConfig.cs: 2d21554d83bd53efca28765b954d65c7 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCallCS.cs: e8bcca8f5a69d0bfe194554d3aeb91b1 -> 
+  custom:scripting/monoscript/fileName/TemplateRef.cs: e57f72b6ec3c4672428b8339ce53c07a -> 
+  custom:scripting/monoscript/fileName/TutorialDerivedClassWrap.cs: 1a8da11bcfc26039296e071510ba3246 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo2ChildWrap.cs: 30fab5c82eb5f5ffb38a0a6d668c1895 -> 
+  custom:scripting/monoscript/fileName/XLuaTestNoGcWrap.cs: b8ab725f3034c7583c772afc97e73cfe -> 
+  custom:scripting/monoscript/fileName/SystemObjectWrap.cs: 9fb5e5ed9e38c23dad1e0232edf0373b -> 
+  custom:scripting/monoscript/fileName/ByString.cs: 71ac2dce49068f904e2150c45e200cdb -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloom.cs: af35b1293c3b8010d434c4d3a8e895f8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineObjectWrap.cs: d239f04268fb712161f840d533347443 -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector3Wrap.cs: 63f465b9380555daafea25b4176adba5 -> 
+  custom:scripting/monoscript/fileName/UnityEngineKeyframeWrap.cs: f022c20884bfebd1cdba5d0a32b69287 -> 
+  custom:scripting/monoscript/fileName/XLuaTestPeddingWrap.cs: 87db0d803af8b6af633a98194cb11698 -> 
+  custom:scripting/monoscript/fileName/HotfixTest2.cs: e6fb5855d637d49dacea7216888e03f7 -> 
+  custom:scripting/monoscript/fileName/UnityEngineDebugWrap.cs: 2a23054f13a8c643d838dbc57d787e1a -> 
+  custom:scripting/monoscript/fileName/Helloworld.cs: 5df6067a12a0276271ef7e4b2f46b98d -> 
+  custom:scripting/monoscript/fileName/LuaBase.cs: f0e74d4e175e23617aebee3a1fbf3735 -> 
+  custom:scripting/monoscript/fileName/LinkXmlGen.cs: f26ca07c1d6ecd8bde6b48a50ed6d393 -> 
+  custom:scripting/monoscript/fileName/LuaDLL.cs: 61e98a188b5f49dbf1a755838a97959a -> 
+  custom:scripting/monoscript/fileName/UnityEngineRay2DWrap.cs: 3948513cbdb210ff5fa49a4b2880e106 -> 
+  custom:scripting/monoscript/fileName/GenAttributes.cs: d46b0cff88dfb044f17f4aed96768af1 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRandomWrap.cs: 2c264e465a4c1285587fe8ad128dc3c6 -> 
+  custom:scripting/monoscript/fileName/UnityEngineWaitForSecondsWrap.cs: f924ebf1733d94f4d65590a1a94e6531 -> 
+  custom:scripting/monoscript/fileName/GenericDelegateBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityEngineResourcesWrap.cs: 698ab99237a4262ce7f88356cded464a -> 
+  custom:scripting/monoscript/fileName/LuaCallCs.cs: 80d51efbfa90ec9a93bf6c4f217fae70 -> 
+  custom:scripting/monoscript/fileName/ExampleConfig.cs: 96766ead2b0a0269b4571117ad9e65bc -> 
+  custom:scripting/monoscript/fileName/UnityEngineVideoVideoPlayerWrap.cs: c0f685847e5a50839a1a0ee64bfbd5b1 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRayWrap.cs: 0b84fbe6cabdb1173feb41e835ef3a40 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSCallLua.cs: 9d2ef4b275968bd22a483233fb8b554e -> 
+  custom:scripting/monoscript/fileName/UnityEngineTexture2DWrap.cs: fe68a1a71ed1cff8698dd39cfd78770d -> 
+  custom:scripting/monoscript/fileName/UnityEngineSpriteWrap.cs: e72d9710c2340ff3d70f27b27e97a3ba -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 55f902a32cb309b7a62f1e16aa1d617d -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/SimpleJSONJSONWrap.cs: eeefadc43cde263ca89a3d8902fdd7ec -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector2Wrap.cs: d8bd11c5df83747314d76d2e1152a25a -> 
+  custom:scripting/monoscript/fileName/TemplateEngine.cs: 196c6eecd2e70276dab2c9a7b0cf2d59 -> 
+  custom:scripting/monoscript/fileName/TutorialBaseClassWrap.cs: 82bd31d966804ddf94755f42eec25c75 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/UnityEngineMonoBehaviourWrap.cs: 04d351bf9d6db68acd2847f2651b2d6b -> 
+  custom:scripting/monoscript/fileName/CopyByValue.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimatorWrap.cs: 65cff2d3eb6b0333aa062676147399f4 -> 
+  custom:scripting/monoscript/fileName/LuaEnv.cs: 89231863be1481a3b9e862fc4fbe0062 -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 3081cd44c942bb721c41533a36b734d7 -> 
+  custom:scripting/monoscript/fileName/UnityEngineGameObjectWrap.cs: 499beb086fe32ba82bd6b30d04f108ea -> 
+  custom:scripting/monoscript/fileName/TutorialDerivedClassExtensionsWrap.cs: e71c7199b289862c70f81cc97fad9cd1 -> 
+  custom:scripting/monoscript/fileName/EnumWrap.cs: 8d5fa9c260d3f16242d63024aabb0be2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioClipWrap.cs: e7dbc281c5e509e42039790037393698 -> 
+  custom:scripting/monoscript/fileName/SignatureLoaderTest.cs: 8c9bdabb3430d1beabc1824b7aff6019 -> 
+  custom:scripting/monoscript/fileName/XLuaTestMyStructWrap.cs: bcfe0251bd793e1e64a466467ef9f39d -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimatorStateInfoWrap.cs: 26d59e87134890634476eda478abe673 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRef.cs: d20deefef77ce124517d36312519dad2 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UnityEngineQuaternionWrap.cs: 2be38f3d0f8715c9babd38533b7cc2f6 -> 
+  custom:scripting/monoscript/fileName/SimpleTouchController.cs: e063af2f9dee5359afd527d83fccd2ae -> 
+  custom:scripting/monoscript/fileName/LuaException.cs: c33171da8599ff6293dbea39eed5f2df -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationStateWrap.cs: c30a1c2f7a66c9c3d92ae492b5adac7c -> 
+  custom:scripting/monoscript/fileName/MessageBox.cs: febd8bda4c1c594acb6f720026ed3aee -> 
+  custom:scripting/monoscript/fileName/UnityEngineCanvasWrap.cs: 147f46f234e7046c307b79f2329b15ff -> 
+  custom:scripting/monoscript/fileName/InvokeLua.cs: 7479efa8aadd7aed0020601aa4374477 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFooExtensionWrap.cs: 778d9d5cc8332e1d0739618b88aa2bb9 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoxColliderWrap.cs: 4a87e41f1a652cdad79f9ca474a5ec46 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaTrigger.cs: c49c7f048e752ba10c5bd139cb5af04a -> 
+  custom:scripting/monoscript/fileName/UnityEngineMathfWrap.cs: 333033f071a58c53b030860e1dc36f4e -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaUMovie.cs: 4beb625c694d85cefa838367ff4a6724 -> 
+  custom:scripting/monoscript/fileName/UnityEngineCameraWrap.cs: 4250aab76a83d6554330244cda24f8d5 -> 
+  custom:scripting/monoscript/fileName/TutorialICalcWrap.cs: 03d02c9cf202af74271e6b9339f2aa97 -> 
+  custom:scripting/monoscript/fileName/UnityEngineMaterialWrap.cs: 8765d740d6d6c2b0ab3862d7536c84f2 -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: 9f9e88fec2de37a51bb5cc9b6b08d6b9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityEngineScreenWrap.cs: ea6d2426f4a924fe6e7059fc06f23334 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0a94cab9cfad88dd0b91d9e6ddecf0a8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRaycastHitWrap.cs: c6c5fcb7dd89575a628f2b8264c459db -> 
+  custom:scripting/monoscript/fileName/PackUnpack.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo1ParentWrap.cs: bc3faaa30d66f1a9334279476c37b2a8 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaCollisionWrap.cs: 0c0b2d3c03c21fc850ffd4e64fd95fb2 -> 
+  custom:scripting/monoscript/fileName/StaticLuaCallbacks.cs: 9d25aed2b0bb83738cfec7ef5ea55802 -> 
+  custom:scripting/monoscript/fileName/UnityEngineSpriteRendererWrap.cs: 351ed86d77c3a90cc5e7b574cbed666a -> 
+  custom:scripting/monoscript/fileName/DelegatesGensBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:scripting/monoscript/fileName/SignatureLoader.cs: 2543099e1b7f94e78f488961484e5e52 -> 
+  custom:scripting/monoscript/fileName/RawObjectTest.cs: af9e06db1e13155c5410c0aa29232eac -> 
+  custom:scripting/monoscript/fileName/MethodWarpsCache.cs: 182591812fc1e7cc805d3eb126c7629a -> 
+  custom:scripting/monoscript/fileName/UnityEngineRaycastHit2DWrap.cs: 72075ea7d33705e149f4248cbdadea44 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTextAssetWrap.cs: 96eae3d139831963806db363328bfefe -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0c0683c03d50493b68d33df61a7274b1 -> 
+  custom:scripting/monoscript/fileName/XLuaTestIExchangerBridge.cs: a1b04ba231b7210d75c48779fb061387 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCollision.cs: 5d7ddf1c522a451ab136b0ecc7a0b86d -> 
+  custom:scripting/monoscript/fileName/Coroutine_Runner.cs: 5e4439e00fb63cce9171543cd134a301 -> 
+  custom:scripting/monoscript/fileName/LQQLuaBehaviourWrap.cs: 935fb0df674a8f7a5b3b7132730bea0c -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloomWrap.cs: aa8641cf264b96ca7b9bdfdc8dac96ae -> 
+  custom:scripting/monoscript/fileName/UnityEngineSkinnedMeshRendererWrap.cs: e6c3bb62aa80867a3afe5dcbb6224761 -> 
+  custom:scripting/monoscript/fileName/UnityEngineMeshWrap.cs: 0571d6567f1372b2a8fedf3f460d3c23 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Coroutine_RunnerWrap.cs: 6f0fa68018ce7ec6600a1039aada7c53 -> 
+  custom:scripting/monoscript/fileName/NoGc.cs: 468686911b292518222c0fc5fca7afd3 -> 
+  custom:scripting/monoscript/fileName/UnityEngineColorWrap.cs: a2199b901d8d68ac06d36f834d48f0de -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioSourceWrap.cs: 865be87dcd88f5dbec7aa719093cfca6 -> 
+  custom:scripting/monoscript/fileName/OthinkArboxCallCsSimpleTouchControllerWrap.cs: fdd9b32406c9dfd7f452b7ad311dfc3b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 41af867cc123c070dfe6b15d45bb5402 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.327799 seconds.
+  path: Assets/DuckHunt
+  artifactKey: Guid(124275ff865864da490d4062a1406ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DuckHunt using Guid(124275ff865864da490d4062a1406ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '843367b299c7a7b05e2df73e3612e056') in 0.001700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.824097 seconds.
+  path: Assets/DuckHunt/Duck Hunt Case
+  artifactKey: Guid(6d448fa4088c046fea1ff847489362b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DuckHunt/Duck Hunt Case using Guid(6d448fa4088c046fea1ff847489362b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7e3a482986296606c61b87ff03aaa3e5') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.528564 seconds.
+  path: Assets/DuckHunt/Duck Hunt Case/DuckHuntLua.unity
+  artifactKey: Guid(f97e56a0c74d24fff85499125d925a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DuckHunt/Duck Hunt Case/DuckHuntLua.unity using Guid(f97e56a0c74d24fff85499125d925a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '83e580d523e7c2cc865c4d9e39c642d7') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 616.099919 seconds.
+  path: Assets/XLuaModule/Modules/LuaBehaviour.cs
+  artifactKey: Guid(b9173d38911503c4a9a371b0760bdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLuaModule/Modules/LuaBehaviour.cs using Guid(b9173d38911503c4a9a371b0760bdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'feea996138b8f3d107d795c77a811116') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.411 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.468 seconds
+Domain Reload Profiling: 1868ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (761ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 43.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2625 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (26.9 KB). Loaded Objects now: 3123.
+Memory consumption went from 107.1 MB to 107.1 MB.
+Total: 4.830900 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.066200 ms MarkObjects: 4.550200 ms  DeleteObjects: 0.028000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AsyncTest.cs: 76ce712e1c4d409aac5fa695d71d244a -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector4Wrap.cs: e876ed87f63c3dc401e686c851325f69 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBehaviourWrap.cs: 07f04650a03b829841e9fab9d7740454 -> 
+  custom:scripting/monoscript/fileName/SystemCollectionsGenericList1SystemInt32Wrap.cs: 0d81f6d3ce2afe6f735fa61fb6f44318 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRigidbodyWrap.cs: 9bbdb506bfaae4b1e09ba9dfb8f08ae0 -> 
+  custom:scripting/monoscript/fileName/SimpleJSONJSONClassWrap.cs: c88df95b71469c675199d7be10396487 -> 
+  custom:scripting/monoscript/fileName/SystemCollectionsIEnumeratorBridge.cs: a6b8b2b6997973169c6bebc4e00197c3 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo2ParentWrap.cs: e55fdaf088679107b1602d0f4f018827 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRendererWrap.cs: e28d66316639c5d4634a4f4176885c0f -> 
+  custom:scripting/monoscript/fileName/UnityEngineWWWFormWrap.cs: 191b7ec59c86354e800249133d1a7eb8 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaUMovieWrap.cs: 54660daa1b82d344065872b745953478 -> 
+  custom:scripting/monoscript/fileName/CoroutineTest.cs: 134e75b3d624706c90564858fec019a1 -> 
+  custom:scripting/monoscript/fileName/XLuaGenAutoRegister.cs: f7d7a1bdecea0875c31215b468d1ea3c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTimeWrap.cs: 5e744018ad83dc4e6b5341356b280ff7 -> 
+  custom:scripting/monoscript/fileName/LuaBehaviour.cs: f44d0d04993d9a005c2ebaa00ba43fff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaCallCSWrap.cs: 6e209fa7545d43b35c04172408930ca4 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ObjectTranslatorPool.cs: c088e49ccc65541c1471becee0155ecc -> 
+  custom:scripting/monoscript/fileName/ByFile.cs: 6f3dfbef5ea17c4620534958e4e26f3b -> 
+  custom:scripting/monoscript/fileName/GenericMethodExample.cs: c3c4960d5a8b500e2f93697b37d06ae2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationClipWrap.cs: 77a92debc688d37d0c76ed29e7849dc6 -> 
+  custom:scripting/monoscript/fileName/UnityEngineVideoVideoClipWrap.cs: 18fcd839a99489f58383ba13bbb1bc02 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationCurveWrap.cs: a1b4a7dab75f49fff03082ff025e4e5e -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: e625196896b9f66d9c1ea4ac7597fd39 -> 
+  custom:scripting/monoscript/fileName/ObjectCasters.cs: 0c1ed1f1cf3d518e5e522f4d874c21c2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineComponentWrap.cs: 3c3e0b9fedb2878f9f3fac771839136b -> 
+  custom:scripting/monoscript/fileName/UnityEngineRectOffsetWrap.cs: d2412070fed9092b91fec02dd9537d08 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo1ChildWrap.cs: 1c5e3d8cdf39c119ce22e5be32eae9dd -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRefWrap.cs: 1d5c40930b5cbeafd08fbb867cba154b -> 
+  custom:scripting/monoscript/fileName/ReImplementInLua.cs: ccd60d267132159582621b9635d9b5d9 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTransformWrap.cs: 50d916bbc9cc3aa204547c1dbcf1b841 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoundsWrap.cs: 3dd26eeb95bac2de8ce2da585d995261 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFooWrap.cs: abbeeb9782209030752aecf7c8307085 -> 
+  custom:scripting/monoscript/fileName/CustomLoader.cs: 3c04d951376acd618234995a34635baf -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BuildFromCLI.cs: ef1665cfd7adbd546e15cd58c9f7c486 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationWrap.cs: 71fe30db9844072263f7bd67a3c89627 -> 
+  custom:scripting/monoscript/fileName/HotfixTest.cs: 3960e9f9315d94bf0223f379bfbd4a4a -> 
+  custom:scripting/monoscript/fileName/StatefullTest.cs: 5d22c8326914d95b29e418e9d014cf15 -> 
+  custom:scripting/monoscript/fileName/SimpleJSONJSONNodeWrap.cs: 3f7db2ac11d98b13e5962ee3c5ccecc0 -> 
+  custom:scripting/monoscript/fileName/WrapPusher.cs: a7d84f614ae4cd3b956f9b8556cfd18e -> 
+  custom:scripting/monoscript/fileName/InternalGlobals.cs: 009e626d008ed11807341f4cf6fb3a9c -> 
+  custom:scripting/monoscript/fileName/UnityEngineShaderWrap.cs: 12366805230b9f8c47ebcb2d343a8739 -> 
+  custom:scripting/monoscript/fileName/RawObject.cs: e4d66a2fce5b764d8103d4567ed38606 -> 
+  custom:scripting/monoscript/fileName/UnityEngineLightWrap.cs: afdccdb78964e15816bd84ff574e1d72 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/UnityEngineRenderTextureWrap.cs: 79648034d95cb274ca07f6080cb1f0b0 -> 
+  custom:scripting/monoscript/fileName/LuaTable.cs: afc244f7b5f5d0300b37ddf3297901ec -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioListenerWrap.cs: 90d69cc44e816d1bfce01fa7ef7fe6f1 -> 
+  custom:scripting/monoscript/fileName/UnityEnginePlayerPrefsWrap.cs: ef520df3f1bd5853616cd94f5b099cd0 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoxCollider2DWrap.cs: d6328aaa2851160dd42642d945004578 -> 
+  custom:scripting/monoscript/fileName/XLuaTestBaseTestWrap.cs: 4f21680da7e23ca573808ca54815d505 -> 
+  custom:scripting/monoscript/fileName/DelegateBridge.cs: 4daef522f87298a8262553f6fd5bf8f2 -> 
+  custom:scripting/monoscript/fileName/XLuaTestInvokeLuaICalcBridge.cs: 39dbaec3aa6ccdef5b8e133e5c8d912d -> 
+  custom:scripting/monoscript/fileName/Foo.cs: f1cbde57f1c636c66a444cf720c99995 -> 
+  custom:scripting/monoscript/fileName/ArBoxXluaGenConfig.cs: 33738575e064a6db3ac6aa405303e8cb -> 
+  custom:scripting/monoscript/fileName/UnityEngineParticleSystemWrap.cs: eee33c4ac5a2b762ef5a90683fe90f0f -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRectTransformWrap.cs: 0baabbce49e7446cc8a42cb49920b4ad -> 
+  custom:scripting/monoscript/fileName/ObjectTranslator.cs: dd3d0b582d45a9b753aab5e6237efeb3 -> 
+  custom:scripting/monoscript/fileName/XLuaTestLuaBehaviourWrap.cs: 8a24807dde2ec4b5434d8876b84591df -> 
+  custom:scripting/monoscript/fileName/UnityEngineCharacterControllerWrap.cs: 55c4a76cf805bd72f5fb379a4e9b8dba -> 
+  custom:scripting/monoscript/fileName/TutorialCSCallLuaItfDBridge.cs: 4e0a8d0795850c18cf92cbc673dc6199 -> 
+  custom:scripting/monoscript/fileName/ExampleGenConfig.cs: 2d21554d83bd53efca28765b954d65c7 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCallCS.cs: e8bcca8f5a69d0bfe194554d3aeb91b1 -> 
+  custom:scripting/monoscript/fileName/TemplateRef.cs: e57f72b6ec3c4672428b8339ce53c07a -> 
+  custom:scripting/monoscript/fileName/TutorialDerivedClassWrap.cs: 1a8da11bcfc26039296e071510ba3246 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo2ChildWrap.cs: 30fab5c82eb5f5ffb38a0a6d668c1895 -> 
+  custom:scripting/monoscript/fileName/XLuaTestNoGcWrap.cs: b8ab725f3034c7583c772afc97e73cfe -> 
+  custom:scripting/monoscript/fileName/SystemObjectWrap.cs: 9fb5e5ed9e38c23dad1e0232edf0373b -> 
+  custom:scripting/monoscript/fileName/ByString.cs: 71ac2dce49068f904e2150c45e200cdb -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloom.cs: af35b1293c3b8010d434c4d3a8e895f8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineObjectWrap.cs: d239f04268fb712161f840d533347443 -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector3Wrap.cs: 63f465b9380555daafea25b4176adba5 -> 
+  custom:scripting/monoscript/fileName/UnityEngineKeyframeWrap.cs: f022c20884bfebd1cdba5d0a32b69287 -> 
+  custom:scripting/monoscript/fileName/XLuaTestPeddingWrap.cs: 87db0d803af8b6af633a98194cb11698 -> 
+  custom:scripting/monoscript/fileName/HotfixTest2.cs: e6fb5855d637d49dacea7216888e03f7 -> 
+  custom:scripting/monoscript/fileName/UnityEngineDebugWrap.cs: 2a23054f13a8c643d838dbc57d787e1a -> 
+  custom:scripting/monoscript/fileName/Helloworld.cs: 5df6067a12a0276271ef7e4b2f46b98d -> 
+  custom:scripting/monoscript/fileName/LuaBase.cs: f0e74d4e175e23617aebee3a1fbf3735 -> 
+  custom:scripting/monoscript/fileName/LinkXmlGen.cs: f26ca07c1d6ecd8bde6b48a50ed6d393 -> 
+  custom:scripting/monoscript/fileName/LuaDLL.cs: 61e98a188b5f49dbf1a755838a97959a -> 
+  custom:scripting/monoscript/fileName/UnityEngineRay2DWrap.cs: 3948513cbdb210ff5fa49a4b2880e106 -> 
+  custom:scripting/monoscript/fileName/GenAttributes.cs: d46b0cff88dfb044f17f4aed96768af1 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRandomWrap.cs: 2c264e465a4c1285587fe8ad128dc3c6 -> 
+  custom:scripting/monoscript/fileName/UnityEngineWaitForSecondsWrap.cs: f924ebf1733d94f4d65590a1a94e6531 -> 
+  custom:scripting/monoscript/fileName/GenericDelegateBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityEngineResourcesWrap.cs: 698ab99237a4262ce7f88356cded464a -> 
+  custom:scripting/monoscript/fileName/LuaCallCs.cs: 80d51efbfa90ec9a93bf6c4f217fae70 -> 
+  custom:scripting/monoscript/fileName/ExampleConfig.cs: 96766ead2b0a0269b4571117ad9e65bc -> 
+  custom:scripting/monoscript/fileName/UnityEngineVideoVideoPlayerWrap.cs: c0f685847e5a50839a1a0ee64bfbd5b1 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRayWrap.cs: 0b84fbe6cabdb1173feb41e835ef3a40 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSCallLua.cs: 9d2ef4b275968bd22a483233fb8b554e -> 
+  custom:scripting/monoscript/fileName/UnityEngineTexture2DWrap.cs: fe68a1a71ed1cff8698dd39cfd78770d -> 
+  custom:scripting/monoscript/fileName/UnityEngineSpriteWrap.cs: e72d9710c2340ff3d70f27b27e97a3ba -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 55f902a32cb309b7a62f1e16aa1d617d -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/SimpleJSONJSONWrap.cs: eeefadc43cde263ca89a3d8902fdd7ec -> 
+  custom:scripting/monoscript/fileName/UnityEngineVector2Wrap.cs: d8bd11c5df83747314d76d2e1152a25a -> 
+  custom:scripting/monoscript/fileName/TemplateEngine.cs: 196c6eecd2e70276dab2c9a7b0cf2d59 -> 
+  custom:scripting/monoscript/fileName/TutorialBaseClassWrap.cs: 82bd31d966804ddf94755f42eec25c75 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/UnityEngineMonoBehaviourWrap.cs: 04d351bf9d6db68acd2847f2651b2d6b -> 
+  custom:scripting/monoscript/fileName/CopyByValue.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimatorWrap.cs: 65cff2d3eb6b0333aa062676147399f4 -> 
+  custom:scripting/monoscript/fileName/LuaEnv.cs: 89231863be1481a3b9e862fc4fbe0062 -> 
+  custom:scripting/monoscript/fileName/Generator.cs: 3081cd44c942bb721c41533a36b734d7 -> 
+  custom:scripting/monoscript/fileName/UnityEngineGameObjectWrap.cs: 499beb086fe32ba82bd6b30d04f108ea -> 
+  custom:scripting/monoscript/fileName/TutorialDerivedClassExtensionsWrap.cs: e71c7199b289862c70f81cc97fad9cd1 -> 
+  custom:scripting/monoscript/fileName/EnumWrap.cs: 8d5fa9c260d3f16242d63024aabb0be2 -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioClipWrap.cs: e7dbc281c5e509e42039790037393698 -> 
+  custom:scripting/monoscript/fileName/SignatureLoaderTest.cs: 8c9bdabb3430d1beabc1824b7aff6019 -> 
+  custom:scripting/monoscript/fileName/XLuaTestMyStructWrap.cs: bcfe0251bd793e1e64a466467ef9f39d -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimatorStateInfoWrap.cs: 26d59e87134890634476eda478abe673 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaResourceRef.cs: d20deefef77ce124517d36312519dad2 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UnityEngineQuaternionWrap.cs: 2be38f3d0f8715c9babd38533b7cc2f6 -> 
+  custom:scripting/monoscript/fileName/SimpleTouchController.cs: e063af2f9dee5359afd527d83fccd2ae -> 
+  custom:scripting/monoscript/fileName/LuaException.cs: c33171da8599ff6293dbea39eed5f2df -> 
+  custom:scripting/monoscript/fileName/UnityEngineAnimationStateWrap.cs: c30a1c2f7a66c9c3d92ae492b5adac7c -> 
+  custom:scripting/monoscript/fileName/MessageBox.cs: febd8bda4c1c594acb6f720026ed3aee -> 
+  custom:scripting/monoscript/fileName/UnityEngineCanvasWrap.cs: 147f46f234e7046c307b79f2329b15ff -> 
+  custom:scripting/monoscript/fileName/InvokeLua.cs: 7479efa8aadd7aed0020601aa4374477 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFooExtensionWrap.cs: 778d9d5cc8332e1d0739618b88aa2bb9 -> 
+  custom:scripting/monoscript/fileName/UnityEngineBoxColliderWrap.cs: 4a87e41f1a652cdad79f9ca474a5ec46 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaTrigger.cs: c49c7f048e752ba10c5bd139cb5af04a -> 
+  custom:scripting/monoscript/fileName/UnityEngineMathfWrap.cs: 333033f071a58c53b030860e1dc36f4e -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaUMovie.cs: 4beb625c694d85cefa838367ff4a6724 -> 
+  custom:scripting/monoscript/fileName/UnityEngineCameraWrap.cs: 4250aab76a83d6554330244cda24f8d5 -> 
+  custom:scripting/monoscript/fileName/TutorialICalcWrap.cs: 03d02c9cf202af74271e6b9339f2aa97 -> 
+  custom:scripting/monoscript/fileName/UnityEngineMaterialWrap.cs: 8765d740d6d6c2b0ab3862d7536c84f2 -> 
+  custom:scripting/monoscript/fileName/LuaFunction.cs: 9f9e88fec2de37a51bb5cc9b6b08d6b9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityEngineScreenWrap.cs: ea6d2426f4a924fe6e7059fc06f23334 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0a94cab9cfad88dd0b91d9e6ddecf0a8 -> 
+  custom:scripting/monoscript/fileName/UnityEngineRaycastHitWrap.cs: c6c5fcb7dd89575a628f2b8264c459db -> 
+  custom:scripting/monoscript/fileName/PackUnpack.cs: 273cbe68a303e04c83210a0d1b0dbfc8 -> 
+  custom:scripting/monoscript/fileName/XLuaTestFoo1ParentWrap.cs: bc3faaa30d66f1a9334279476c37b2a8 -> 
+  custom:scripting/monoscript/fileName/LQQDuckHuntLuaCollisionWrap.cs: 0c0b2d3c03c21fc850ffd4e64fd95fb2 -> 
+  custom:scripting/monoscript/fileName/StaticLuaCallbacks.cs: 9d25aed2b0bb83738cfec7ef5ea55802 -> 
+  custom:scripting/monoscript/fileName/UnityEngineSpriteRendererWrap.cs: 351ed86d77c3a90cc5e7b574cbed666a -> 
+  custom:scripting/monoscript/fileName/DelegatesGensBridge.cs: 9b33d1c344798966a03eb7d32474259e -> 
+  custom:scripting/monoscript/fileName/SignatureLoader.cs: 2543099e1b7f94e78f488961484e5e52 -> 
+  custom:scripting/monoscript/fileName/RawObjectTest.cs: af9e06db1e13155c5410c0aa29232eac -> 
+  custom:scripting/monoscript/fileName/MethodWarpsCache.cs: 182591812fc1e7cc805d3eb126c7629a -> 
+  custom:scripting/monoscript/fileName/UnityEngineRaycastHit2DWrap.cs: 72075ea7d33705e149f4248cbdadea44 -> 
+  custom:scripting/monoscript/fileName/UnityEngineTextAssetWrap.cs: 96eae3d139831963806db363328bfefe -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0c0683c03d50493b68d33df61a7274b1 -> 
+  custom:scripting/monoscript/fileName/XLuaTestIExchangerBridge.cs: a1b04ba231b7210d75c48779fb061387 -> 
+  custom:scripting/monoscript/fileName/DuckHuntLuaCollision.cs: 5d7ddf1c522a451ab136b0ecc7a0b86d -> 
+  custom:scripting/monoscript/fileName/Coroutine_Runner.cs: 5e4439e00fb63cce9171543cd134a301 -> 
+  custom:scripting/monoscript/fileName/LQQLuaBehaviourWrap.cs: 935fb0df674a8f7a5b3b7132730bea0c -> 
+  custom:scripting/monoscript/fileName/ImageEffect_MoblieBloomWrap.cs: aa8641cf264b96ca7b9bdfdc8dac96ae -> 
+  custom:scripting/monoscript/fileName/UnityEngineSkinnedMeshRendererWrap.cs: e6c3bb62aa80867a3afe5dcbb6224761 -> 
+  custom:scripting/monoscript/fileName/UnityEngineMeshWrap.cs: 0571d6567f1372b2a8fedf3f460d3c23 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Coroutine_RunnerWrap.cs: 6f0fa68018ce7ec6600a1039aada7c53 -> 
+  custom:scripting/monoscript/fileName/NoGc.cs: 468686911b292518222c0fc5fca7afd3 -> 
+  custom:scripting/monoscript/fileName/UnityEngineColorWrap.cs: a2199b901d8d68ac06d36f834d48f0de -> 
+  custom:scripting/monoscript/fileName/UnityEngineAudioSourceWrap.cs: 865be87dcd88f5dbec7aa719093cfca6 -> 
+  custom:scripting/monoscript/fileName/OthinkArboxCallCsSimpleTouchControllerWrap.cs: fdd9b32406c9dfd7f452b7ad311dfc3b -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 41af867cc123c070dfe6b15d45bb5402 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.769905 seconds.
+  path: Assets/XLuaModule/Modules/DuckHuntLuaUMovie.cs
+  artifactKey: Guid(779cc64f4ef4f4d28b7278113f947c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLuaModule/Modules/DuckHuntLuaUMovie.cs using Guid(779cc64f4ef4f4d28b7278113f947c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'aa017a32d01ba9f6a29a467fb9989541') in 0.001986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.743819 seconds.
+  path: Assets/XLuaModule/Modules/DuckHuntLuaTrigger.cs
+  artifactKey: Guid(d1a4e6e1d009b47ca9514f4e3b1a2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XLuaModule/Modules/DuckHuntLuaTrigger.cs using Guid(d1a4e6e1d009b47ca9514f4e3b1a2095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'fbf150afcdba6aaf096dd85ed30f214c') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

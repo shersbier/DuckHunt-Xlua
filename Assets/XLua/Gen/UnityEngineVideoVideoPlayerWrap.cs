@@ -977,7 +977,7 @@ namespace XLua.CSObjectWrap
                 ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			
                 UnityEngine.Video.VideoPlayer gen_to_be_invoked = (UnityEngine.Video.VideoPlayer)translator.FastGetCSObj(L, 1);
-                LuaAPI.lua_pushboolean(L, gen_to_be_invoked.canSetTimeSource);
+                LuaAPI.lua_pushboolean(L, gen_to_be_invoked.canSetTimeUpdateMode);
             } catch(System.Exception gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
             }
@@ -991,7 +991,7 @@ namespace XLua.CSObjectWrap
                 ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			
                 UnityEngine.Video.VideoPlayer gen_to_be_invoked = (UnityEngine.Video.VideoPlayer)translator.FastGetCSObj(L, 1);
-                translator.Push(L, gen_to_be_invoked.timeSource);
+                translator.Push(L, gen_to_be_invoked.timeUpdateMode);
             } catch(System.Exception gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
             }
@@ -1502,8 +1502,8 @@ namespace XLua.CSObjectWrap
                 ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 			
                 UnityEngine.Video.VideoPlayer gen_to_be_invoked = (UnityEngine.Video.VideoPlayer)translator.FastGetCSObj(L, 1);
-                UnityEngine.Video.VideoTimeSource gen_value;translator.Get(L, 2, out gen_value);
-				gen_to_be_invoked.timeSource = gen_value;
+                UnityEngine.Video.VideoTimeUpdateMode gen_value;translator.Get(L, 2, out gen_value);
+				gen_to_be_invoked.timeUpdateMode = gen_value;
             
             } catch(System.Exception gen_e) {
                 return LuaAPI.luaL_error(L, "c# exception:" + gen_e);

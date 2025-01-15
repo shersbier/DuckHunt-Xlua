@@ -940,7 +940,7 @@ namespace XLua.CSObjectWrap
                     float _focalLength = (float)LuaAPI.lua_tonumber(L, 1);
                     float _sensorSize = (float)LuaAPI.lua_tonumber(L, 2);
                     
-                        float gen_ret = UnityEngine.Camera.FocalLengthToFOV( _focalLength, _sensorSize );
+                        float gen_ret = UnityEngine.Camera.FocalLengthToFieldOfView( _focalLength, _sensorSize );
                         LuaAPI.lua_pushnumber(L, gen_ret);
                     
                     
@@ -966,7 +966,7 @@ namespace XLua.CSObjectWrap
                     float _fov = (float)LuaAPI.lua_tonumber(L, 1);
                     float _sensorSize = (float)LuaAPI.lua_tonumber(L, 2);
                     
-                        float gen_ret = UnityEngine.Camera.FOVToFocalLength( _fov, _sensorSize );
+                        float gen_ret = UnityEngine.Camera.FieldOfViewToFocalLength( _fov, _sensorSize );
                         LuaAPI.lua_pushnumber(L, gen_ret);
                     
                     

@@ -763,7 +763,7 @@ namespace XLua.CSObjectWrap
                     int _width = LuaAPI.xlua_tointeger(L, 2);
                     int _height = LuaAPI.xlua_tointeger(L, 3);
                     
-                        bool gen_ret = gen_to_be_invoked.Resize( _width, _height );
+                        bool gen_ret = gen_to_be_invoked.Reinitialize( _width, _height );
                         LuaAPI.lua_pushboolean(L, gen_ret);
                     
                     
@@ -777,7 +777,7 @@ namespace XLua.CSObjectWrap
                     UnityEngine.TextureFormat _format;translator.Get(L, 4, out _format);
                     bool _hasMipMap = LuaAPI.lua_toboolean(L, 5);
                     
-                        bool gen_ret = gen_to_be_invoked.Resize( _width, _height, _format, _hasMipMap );
+                        bool gen_ret = gen_to_be_invoked.Reinitialize( _width, _height, _format, _hasMipMap );
                         LuaAPI.lua_pushboolean(L, gen_ret);
                     
                     

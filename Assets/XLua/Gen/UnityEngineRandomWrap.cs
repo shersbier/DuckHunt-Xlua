@@ -8,6 +8,7 @@ using RealStatePtr = System.IntPtr;
 using LuaCSFunction = XLua.LuaDLL.lua_CSFunction;
 #endif
 
+using System;
 using XLua;
 using System.Collections.Generic;
 
@@ -61,7 +62,7 @@ namespace XLua.CSObjectWrap
 				if(LuaAPI.lua_gettop(L) == 1)
 				{
 					
-					UnityEngine.Random gen_ret = new UnityEngine.Random();
+					Random gen_ret = new Random();
 					translator.Push(L, gen_ret);
                     
 					return 1;
